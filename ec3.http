@@ -1,0 +1,10 @@
+@server=https://katherineloayza-glowing-adventure-7qw9jrr569gfw6q-8080.preview.app.github.dev
+
+GET {{server}}/categorias/1
+
+###
+
+PATCH {{server}}/categorias/1
+Content-Type: application/json
+
+{"nombre":"Cuerda"}
